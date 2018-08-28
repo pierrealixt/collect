@@ -37,32 +37,38 @@ public final class ThemeUtils {
 
     @StyleRes
     public int getAppTheme() {
-        return isDarkTheme() ? R.style.DarkAppTheme : R.style.LightAppTheme;
+        return R.style.ScanterraTheme;
+        //return isDarkTheme() ? R.style.DarkAppTheme : R.style.LightAppTheme;
     }
 
     @StyleRes
     public int getFormEntryActivityTheme() {
-        return isDarkTheme() ? R.style.FormEntryActivityDarkTheme : R.style.FormEntryActivityLightTheme;
+        return R.style.FormEntryActivityScanterraTheme;
+        //return isDarkTheme() ? R.style.FormEntryActivityDarkTheme : R.style.FormEntryActivityLightTheme;
     }
 
     @StyleRes
     public int getSettingsTheme() {
-        return isDarkTheme() ? R.style.AppTheme_SettingsTheme_Dark : R.style.AppTheme_SettingsTheme_Light;
+        return R.style.AppTheme_SettingsTheme_Scanterra;
+        //return isDarkTheme() ? R.style.AppTheme_SettingsTheme_Dark : R.style.AppTheme_SettingsTheme_Light;
     }
 
     @StyleRes
     public int getBottomDialogTheme() {
-        return isDarkTheme() ? R.style.DarkMaterialDialogSheet : R.style.LightMaterialDialogSheet;
+        return R.style.ScanterraDialogSheet;
+        //return isDarkTheme() ? R.style.DarkMaterialDialogSheet : R.style.LightMaterialDialogSheet;
     }
 
     @DrawableRes
     public int getDivider() {
-        return isDarkTheme() ? android.R.drawable.divider_horizontal_dark : android.R.drawable.divider_horizontal_bright;
+        return android.R.drawable.divider_horizontal_dark;
+        //return isDarkTheme() ? android.R.drawable.divider_horizontal_dark : android.R.drawable.divider_horizontal_bright;
     }
 
     public boolean isHoloDialogTheme(int theme) {
-        return theme == android.R.style.Theme_Holo_Light_Dialog ||
-                theme == android.R.style.Theme_Holo_Dialog;
+        return false;
+        //return theme == android.R.style.Theme_Holo_Light_Dialog ||
+          //      theme == android.R.style.Theme_Holo_Dialog;
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)

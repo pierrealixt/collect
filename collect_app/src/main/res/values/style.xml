@@ -21,10 +21,16 @@
         <item name="android:windowAnimationStyle">@style/MaterialDialogSheetAnimation</item>
     </style>
 
+    <style name="ScanterraDialogSheet" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+        <item name="android:windowAnimationStyle">@style/MaterialDialogSheetAnimation</item>
+    </style>
+
     <style name="LightMaterialDialogSheet" parent="Theme.Design.Light.BottomSheetDialog">
         <item name="bottomSheetStyle">@style/AppModalStyle</item>
         <item name="android:windowAnimationStyle">@style/MaterialDialogSheetAnimation</item>
     </style>
+
 
     <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
         <item name="behavior_peekHeight">300dp</item>

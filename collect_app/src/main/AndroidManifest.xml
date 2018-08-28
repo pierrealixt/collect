@@ -107,7 +107,8 @@ the specific language governing permissions and limitations under the License.
 
         <activity
             android:name=".activities.MainMenuActivity"
-            android:configChanges="locale|orientation|screenSize" />
+            android:configChanges="locale|orientation|screenSize"
+            android:theme="@style/BaseScanterraTheme" />
         <activity
             android:name=".activities.ScannerWithFlashlightActivity"
             android:screenOrientation="portrait"

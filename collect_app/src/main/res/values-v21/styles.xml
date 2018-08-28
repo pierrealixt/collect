@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    <style name="Theme.Scanterra" parent="android:Theme.DeviceDefault">
+        <item name="android:colorPrimary">@android:color/holo_purple</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_device_default_dark</item>
+        <item name="android:colorAccent">@color/accent_device_default_dark</item>
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:navigationBarColor">?android:attr/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+
+    <style name="FormEntryActivityScanterraTheme" parent="Theme.Scanterra">
+        <item name="android:textDirection" tools:targetApi="17">firstStrong</item>
+    </style>
+
+    <style name="AppTheme.SettingsTheme.Scanterra" parent="Theme.Scanterra">
+        <item name="android:textColor">?primaryTextColor</item>
+        <item name="android:textDirection" tools:targetApi="17">locale</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+    <style name="ScanterraDialogSheet" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+        <item name="android:windowAnimationStyle">@style/MaterialDialogSheetAnimation</item>
+    </style>
+    -->
+
+</resources>

@@ -29,4 +29,11 @@ the License.
     <color name="lightAccentColor">#2196F3</color>
 
     <color name="displaySubtextColor">#4CAF50</color>
+    <color name="primary_device_default_dark">#4caf50</color>
+    <color name="primary_dark_device_default_dark">#009ac3</color>
+    <color name="accent_device_default_dark">#009375</color>
+    <color name="background_material_dark">#4e59d7</color>
+    <color name="chouette">#eb1f1f</color>
+    <color name="secondary_text_default_material_light">#8ac01111</color>
+    <color name="primary_material_light">#f5f5f5</color>
 </resources>
