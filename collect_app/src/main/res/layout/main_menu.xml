@@ -33,6 +33,7 @@
         android:layout_below="@id/toolbar"
         android:orientation="vertical">
 
+
         <TextView
             android:id="@+id/main_menu_header"
             android:layout_width="match_parent"
@@ -44,7 +45,7 @@
             android:textColor="?primaryTextColor"
             android:textSize="21sp"
             android:textStyle="bold"/>
-
+        <!--
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,7 +55,7 @@
             android:text="@string/main_menu_details"
             android:textColor="?primaryTextColor"
             android:textSize="17sp"/>
-
+        -->
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -80,7 +81,11 @@
                     android:padding="20dp"
                     android:textAllCaps="false"
                     android:textSize="21sp"
-                    android:textStyle="normal" />
+                    android:textStyle="bold"
+                    style="@style/Button.Scanterra"
+                    android:background="@drawable/button_selector"/>
+
+
 
                 <View
                     android:layout_width="match_parent"
@@ -93,7 +98,9 @@
                     android:padding="20dp"
                     android:textAllCaps="false"
                     android:textSize="21sp"
-                    android:textStyle="normal"/>
+                    android:textStyle="bold"
+                    style="@style/Button.Scanterra"
+                    android:background="@drawable/button_selector"/>
 
                 <View
                     android:id="@+id/review_spacer"
@@ -107,7 +114,10 @@
                     android:padding="20dp"
                     android:textAllCaps="false"
                     android:textSize="21sp"
-                    android:textStyle="normal"/>
+                    android:textStyle="bold"
+                    style="@style/Button.Scanterra"
+                    android:background="@drawable/button_selector"/>
+
 
                 <View
                     android:layout_width="match_parent"
@@ -121,7 +131,10 @@
                     android:text="@string/view_sent_forms"
                     android:textAllCaps="false"
                     android:textSize="21sp"
-                    android:textStyle="normal"/>
+                    android:textStyle="bold"
+                    style="@style/Button.Scanterra"
+                    android:background="@drawable/button_selector"/>
+
 
                 <View
                     android:layout_width="match_parent"
@@ -134,7 +147,10 @@
                     android:padding="20dp"
                     android:textAllCaps="false"
                     android:textSize="21sp"
-                    android:textStyle="normal"/>
+                    android:textStyle="bold"
+                    style="@style/Button.Scanterra"
+                    android:background="@drawable/button_selector"/>
+
 
                 <View
                     android:id="@+id/get_forms_spacer"
@@ -148,7 +164,10 @@
                     android:padding="20dp"
                     android:textAllCaps="false"
                     android:textSize="21sp"
-                    android:textStyle="normal"/>
+                    android:textStyle="bold"
+                    style="@style/Button.Scanterra"
+                    android:background="@drawable/button_selector"/>
+
             </LinearLayout>
 
         </ScrollView>

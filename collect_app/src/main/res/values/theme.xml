@@ -108,11 +108,11 @@
         <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
         <item name="android:fadeScrollbars">false</item>
         <!-- <item name="colorAccent">@color/lightAccentColor</item>-->
-        <item name="colorAccent">@color/red</item>
+        <item name="colorAccent">#102690</item>
         <item name="android:fontFamily">@string/font_family_regular</item>
         <item name="android:panelBackground">@android:color/white</item>
-        <item name="alertDialogTheme">@style/AlertDialogTheme.Light</item>
-        <item name="searchViewStyle">@style/SearchViewTheme.Light</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme.Scanterra</item>
+        <item name="searchViewStyle">@style/SearchViewTheme.Scanterra</item>
         <item name="iconColor">@color/lightIconColor</item>
         <item name="rankItemColor">@color/lightRankItemColor</item>
         <item name="android:textDirection" tools:targetApi="17">locale</item>
@@ -122,6 +122,7 @@
 
     <style name="AlertDialogTheme.Scanterra" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="colorAccent">@color/lightAccentColor</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
     </style>
 
     <style name="AppTheme.SettingsTheme.Scanterra" parent="BaseScanterraTheme">
@@ -136,4 +137,14 @@
         <item name="searchHintIcon">@null</item>
     </style>
 
+    <style name="Button.Scanterra" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">#b52b5e</item>
+        <item name="primaryTextColor">#b52b5e</item>
+        <!--<item name="android:background">@android:color/white</item>-->
+    </style>
+
+    <style name="Toolbar.Scanterra" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="primaryTextColor">@android:color/white</item>
+        <item name="colorPrimary">@android:color/white</item>
+    </style>
 </resources>
